@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Copse&family=Syncopate:wght@700&display=swap');
+/* font-family: 'Copse', serif;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Syncopate', sans-serif; */
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Chelsea Market', cursive;;
+}
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Copse', serif; */
+    /* font-family: 'Chelsea Market', cursive; */
+    font-family: 'Syncopate', sans-serif;
+}
+/* header starts */
+header {
+    background-image: url("images/header-leaning.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(2, 2, 2, 0.428);
+    font-size: 20px;
+}
+.nav-link {
+    color: #fff;
+    margin: 7px;
+    /* padding: 12px 0px; */
+    border-radius: 6px;
+    transition: .3s;
+}
+.nav-link:hover {
+    background: #657efbd2;
+    /* background-color: white; */
+    text-shadow: violet;
+    transform: scale(1.1);
+    display: block;
+}
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+.navbar-toggler {
+    background-color: rosybrown;
+}
+
+/* header ends */
+/*  */
+.banner-container {
+    height: 100vh;
+    /* vh --> vertical height */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; --> done in bs class*/
+}
+.banner-container h1 {
+    font-size: 3rem;
+    background-color: rgba(145, 68, 68, 0.367);
+    padding: 10px 20px;
+    font-family: 'Chelsea Market', cursive;
+    /* rounded-circle */
+    border-radius: 10px;
+}
