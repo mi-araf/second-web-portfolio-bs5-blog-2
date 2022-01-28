@@ -3,11 +3,14 @@
 font-family: 'Chelsea Market', cursive;
 font-family: 'Syncopate', sans-serif; */
 
+
 html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Chelsea Market', cursive;;
+    font-family: 'Chelsea Market', cursive;
+    margin: 0px;
+    padding: 0px;
 }
 h1, h2, h3, h4, h5, h6 {
     /* font-family: 'Copse', serif; */
@@ -17,8 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 /* header starts */
 header {
     background-image: url("images/header-leaning.jpg");
-    background-position: center;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
