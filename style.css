@@ -81,9 +81,16 @@ header {
 /* features start */
 #features {
     padding: 6% 11%;
-    background: rgba(205, 203, 250, 0.857);
+    background: rgba(224, 223, 251, 0.775);
+}
+#features-span {
+    font-family: 'Copse', serif;
+    font-size: 3rem;
+    text-shadow: 11px 7px 12px;
+    border: 3px dotted rgb(225, 0, 255);
 }
 .features-col {
+    background: #f0ffe3;
     border: 3px solid #d61111e5;
     border-radius: 6px;
     padding: 15px;
@@ -95,7 +102,7 @@ header {
 .features-col:hover {
     transform: scale(1.1);
     box-shadow: 8px 9px 8px rgb(99, 99, 99);
-    background: rgba(176, 175, 194, 0.857);
+    background: rgba(197, 197, 211, 0.857);
 }
 .icon-style {
     background: #db61ebf3;
