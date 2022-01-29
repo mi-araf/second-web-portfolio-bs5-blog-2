@@ -2,20 +2,25 @@
 /* font-family: 'Copse', serif;
 font-family: 'Chelsea Market', cursive;
 font-family: 'Syncopate', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
 
-
+/* * {
+    margin: 0;
+    padding: 0;
+} */
 html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 h1, h2, h3, h4, h5, h6 {
     /* font-family: 'Copse', serif; */
     /* font-family: 'Chelsea Market', cursive; */
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Chelsea Market', cursive;
 }
 /* header starts */
 header {
@@ -24,6 +29,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .navbar {
     padding: 1% 10%;
@@ -68,4 +74,32 @@ header {
     font-family: 'Chelsea Market', cursive;
     /* rounded-circle */
     border-radius: 10px;
+}
+
+/* body  */
+
+/* features start */
+#features {
+    padding: 6% 11%;
+    background: rgba(205, 203, 250, 0.857);
+}
+.features-col {
+    border: 3px solid #d61111e5;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 20px 0px;
+    box-shadow: 6px 6px 20px rgba(230, 51, 51, 0.374);
+
+    transition: 0.4s;
+}
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 9px 8px rgb(99, 99, 99);
+    background: rgba(176, 175, 194, 0.857);
+}
+.icon-style {
+    background: #db61ebf3;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 15px;
+    margin: 5px 0px;
 }
