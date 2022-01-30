@@ -4,6 +4,8 @@ font-family: 'Chelsea Market', cursive;
 font-family: 'Syncopate', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 /* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+/* font-family: 'Zilla Slab', serif; */
 
 /* * {
     margin: 0;
@@ -30,6 +32,16 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+
+/* for marquee tag */
+.features-span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 11px 7px 12px;
+    border: 3px dotted rgb(225, 0, 255);
+    /* border-radius: 5px; */
 }
 /* .hr-style{
     border: 50px dotted rgb(255, 0, 0) !important;
@@ -75,7 +87,7 @@ header {
 }
 .banner-container h1 {
     font-size: 3rem;
-    background-color: rgba(145, 68, 68, 0.367);
+    background-color: rgba(224, 19, 19, 0.367);
     padding: 10px 20px;
     font-family: 'Syncopate', sans-serif;
     /* rounded-circle */
@@ -88,14 +100,6 @@ header {
 #features {
     padding: 6% 11%;
     background: rgba(224, 223, 251, 0.775);
-}
-#features-span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-shadow: 11px 7px 12px;
-    border: 3px dotted rgb(225, 0, 255);
-    /* border-radius: 5px; */
 }
 .features-col {
     background: #edfbe1e3;
@@ -151,3 +155,22 @@ header {
 }
 
 /*  */
+/* Tutorials */
+#tutorials {
+    padding: 4% 10%;
+    background: linear-gradient(35deg, #f71c1ce8, #7979f5ee);
+}
+.card {
+    border: 3px solid #9a02ff;
+    box-shadow: 6px 6px 14px #f59a7fc6;
+
+    transition: 0.4s;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 9px 11px rgb(39, 39, 39);
+    background: rgba(230, 230, 238, 0.857);
+}
+#tutorials h3, h5, h2, h1, h4, h6 {
+    font-family: 'Zilla Slab', serif;
+}
