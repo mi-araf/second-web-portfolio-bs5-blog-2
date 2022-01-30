@@ -31,6 +31,11 @@ header {
     background-size: cover;
     text-align: center;
 }
+/* .hr-style{
+    border: 50px dotted rgb(255, 0, 0) !important;
+    border-bottom: none !important;
+    width: 100px !important;
+} */
 .navbar {
     padding: 10% 10%;
     background-color: rgba(2, 2, 2, 0.428);
@@ -93,7 +98,7 @@ header {
     /* border-radius: 5px; */
 }
 .features-col {
-    background: #f0ffe3;
+    background: #edfbe1e3;
     border: 3px solid #d61111e5;
     border-radius: 6px;
     padding: 15px;
@@ -113,3 +118,36 @@ header {
     padding: 15px;
     margin: 5px 0px;
 }
+/*  */
+/* About me */
+.section-title h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+#about-me {
+    padding: 4% 10%;
+    background: #fbdff7c6;
+}
+#about-me p {
+    font-size: 0.9rem;
+    font-weight: light;
+    margin-bottom: 0px;
+}
+#about-me a {
+    font-size: 0.9rem;
+    font-weight: light;
+    color: darkslategrey;
+    text-decoration: cyan underline;
+}
+.achieve-desc span {
+    font-weight: 700 !important; 
+}
+.star i {
+    width: 24px;
+    color: #e9b021f5;
+}
+
+/*  */
