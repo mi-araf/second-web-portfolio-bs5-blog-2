@@ -162,7 +162,7 @@ header {
 }
 .card {
     border: 3px solid #9a02ff;
-    box-shadow: 6px 6px 14px #f59a7fc6;
+    box-shadow: 6px 8px 14px #f59a7fc6;
 
     transition: 0.4s;
 }
@@ -174,3 +174,27 @@ header {
 #tutorials h3, h5, h2, h1, h4, h6 {
     font-family: 'Zilla Slab', serif;
 }
+/*  */
+/* feedback */
+#feedback {
+    padding: 5%;
+    background: linear-gradient(165deg, #774f8c, rgb(202, 151, 159));
+}
+.fb-img {
+    width: 130px;
+    height: 110px;
+    margin-bottom: 7px;
+}
+.carousel-item {
+    text-align: center;
+    padding: 8% 16%;
+    font-style: italic;
+    font-size: 1rem;
+}
+#feedback > marquee {
+    color: #312b2b;
+}
+/* .carousel-indicators {
+    bottom: 1px;
+} */
+/*  */
