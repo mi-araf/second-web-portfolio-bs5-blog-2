@@ -178,7 +178,7 @@ header {
 /* feedback */
 #feedback {
     padding: 5%;
-    background: linear-gradient(165deg, #774f8c, rgb(202, 151, 159));
+    background: linear-gradient(165deg, #774f8cbd, rgb(206, 148, 157));
 }
 .fb-img {
     width: 130px;
@@ -198,3 +198,24 @@ header {
     bottom: 1px;
 } */
 /*  */
+/* Contact me  */
+#contact-me {
+    padding: 3% 10%;
+    background-color: rgb(218, 211, 211);
+}
+.form-group label {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+/*  */
+/* footer */
+footer {
+    padding: 2% 11%;
+    background: linear-gradient(112deg, #fbcc8ff5, #8a8aff);
+}
+#copy-right {
+    background: rgba(49, 49, 49, 0.796);
+}
+/* footer a:hover {
+    background-color: #b82626;
+} */
